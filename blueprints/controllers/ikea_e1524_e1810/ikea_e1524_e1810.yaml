@@ -1,6 +1,6 @@
 # Blueprint metadata
 blueprint:
-  name: Controller fix - IKEA E1524/E1810 TRÅDFRI Wireless 5-Button Remote
+  name: Controller - FIX IKEA E1524/E1810 TRÅDFRI Wireless 5-Button Remote
   description: |
     # Controller - IKEA E1524/E1810 TRÅDFRI Wireless 5-Button Remote
 
@@ -15,7 +15,7 @@ blueprint:
 
     🚀 This blueprint is part of the **[Awesome HA Blueprints](https://epmatt.github.io/awesome-ha-blueprints) project**.
 
-    ℹ️ Version 2021.10.26
+    ℹ️ Version 2021.10.26 (updated 14/02/2022 with ZHA codes post 2022.04.3 release)
   source_url: https://github.com/EPMatt/awesome-ha-blueprints/blob/main/blueprints/controllers/ikea_e1524_e1810/ikea_e1524_e1810.yaml
   domain: automation
   input:
@@ -335,6 +335,7 @@ variables:
       button_center_short: ['1002']
       button_center_long: ['1001']
     zha:
+      # updated 2022/04/14 with ZHA codes post HA 2022.04.3 release
       button_left_short: [press_257_13_0]
       button_left_long: [hold_3329_0]
       button_left_release: [release_2569]
